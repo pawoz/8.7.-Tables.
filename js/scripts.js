@@ -31,9 +31,8 @@ var allNames = femaleNames.concat(maleNames);
 var newName ='Marian'
 console.log(allNames)
 if (allNames.indexOf(newName) === -1) {
-		var allNames2 = allNames.push(newName);
+		allNames.push(newName);
 } else {
 	console.log('Imię Marian występuje w tablicy allNames');
 };
-console.log(allNames2); //co zrobić żeby wyświetlić zawartość tablicy??
-console.log(allNames[7]);
+console.log(allNames);
